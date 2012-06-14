@@ -66,21 +66,6 @@
 		a:hover { color: green; }
 		*/
 
-		/***************************************************<!--{{{-->
-		****************************************************
-		MOBILE TARGETING
-
-		Use @media queries with care.  You should not bring these styles inline -- so it's recommended to apply them AFTER you bring the other stlying inline.
-
-		Note: test carefully with Yahoo.
-		Note 2: Don't bring anything below this line inline.
-		****************************************************
-		***************************************************/
-
-		/* NOTE: To properly use @media queries and play nice with yahoo mail, use attribute selectors in place of class, id declarations.
-		table[class=classname]
-		Read more: http://www.campaignmonitor.com/blog/post/3457/media-query-issues-in-yahoo-mail-mobile-email/
-		*/
 		@media only screen and (max-device-width: 480px) {
 
 			/* A nice and clean way to target phone numbers you want clickable and avoid a mobile phone from linking other numbers that look like, but are not phone numbers.  Use these two blocks of code to "unstyle" any numbers that may be linked.  The second block gives you a class to apply with a span tag to the numbers you would like linked and styled.
@@ -151,12 +136,7 @@
 	</style>
 	<![endif]-->
 
-	<!-- ***********************************************
-	****************************************************
-	END MOBILE TARGETING
-	****************************************************
-	************************************************ -->
-<!--}}}-->
+
 	<!--[if gte mso 9]>
 	<style>
 		/* Target Outlook 2007 and 2010 */
@@ -168,9 +148,10 @@
   <table style="background-color: yellow; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="800">
     <tr>
       <td align="center">
-        <!-- Begin wrapper table --  ><!--{{{-->
+        <!-- Begin wrapper table --><!--{{{-->
         <table  class="background-table-color" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="640">
           <tr>
+            <td width="10"></td>
             <td>
                 <!--SPACER--><!--{{{-->
                 <table class="w340;" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="340" cellpadding="0" cellspacing="0" border="0" border="0">
@@ -312,7 +293,13 @@
                    </tr>
                 </table>
                 <!--END FOOTER--><!--}}}-->
+                <!--SPACER--><!--{{{-->
+                <table class="w340;" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="340" cellpadding="0" cellspacing="0" border="0" border="0">
+                  <tbody ><tr><td width="340" cellpadding="0" cellspacing="0" border="0" height="8"></td></tr></tbody>
+                </table>
+                <!--SPACER-END--><!--}}}-->
             </td>
+            <td width="10"></td>
           </tr>
         </table>
         <!-- End of wrapper table --><!--}}}-->
