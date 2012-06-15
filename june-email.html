@@ -11,8 +11,7 @@
     Styles crafted by SYP
      Go here for now.
      ***********/
-     .background-table-color { background-color: #ececec; }
-     .circles { width: 200px; height: 200px; background: yellow; border-radius: 100px; }
+     .circles { width: 150px; height: 150px; border-radius: 75px; }
      .circles .text { display: block; padding-top: 40%; padding-left: 20px; padding-right: 20px; line-height: 100%; font-size: 1.25em; text-align: center; color: black; }
      .header-color{background-color: black;}
      .h40{height: 40px;}
@@ -20,6 +19,22 @@
      .big {font-size: 4em; margin: 0;}
      .small-text{font-size: 12px; vertical-align: bottom;}
 		 .image_fix {display:block;}
+     .grey{background-color: rgba(254, 254, 254, 1);}
+     .yellow{background-color: rgba(224, 224, 53, 1);}
+     .blue{background-color: rgba(76, 193, 198, 1);}
+     .yellow-text{color: rgba(224, 224, 53, 1);}
+     .white-text{color: white;)}
+     .blue-text{color: rgba(76, 193, 198, 1);)}
+     .white.medium-text{font-size: 1.5em;}
+     .f_75{font-size: .75em;}
+     .f_9{font-size: .938em;}
+     .f1_875{font-size: 1.875em;}
+     .f1_188{font-size: 1.188em;}
+     .f1_125{font-size: 1.125em;}
+     h1.headline{letter-spacing: -5px; word-spacing:-1px; line-height: 1; margin: 0;}
+     .f5{font-size: 5em;}
+
+     .title{font-weight: bold; word-spacing: 2px; display:block; margin-bottom: 5px;}
 
      /*INLINE: Yes.*/
 
@@ -145,11 +160,11 @@
 </head>
 <body>
   <!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
-  <table style="background-color: yellow; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="800">
+  <table class="blue" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="800">
     <tr>
       <td align="center">
         <!-- Begin wrapper table --><!--{{{-->
-        <table  class="background-table-color" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="640">
+        <table  class="grey" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" cellpadding="0" cellspacing="0" border="0" width="640">
           <tr>
             <td width="10"></td>
             <td>
@@ -164,7 +179,7 @@
                   <tr > 
                     <!-- nest td's to get columnar -->
                      <td width="20"></td>
-                     <td width="50" cellpadding="0" valign="top" align="left" class="h40 white small-text" style="margin: 1em 0;">share on.</td>
+                     <td width="50" cellpadding="0" valign="top" align="left" class="h40 white small-text" style="margin: 1em 0;"><span class="f_93" style="font-size: .938em;">share on.</span></td>
                      <td>
                        <a href="//www.unstuck.com" target ="_blank"
                          style="text-decoration: none;"><img style="outline: none;"
@@ -182,7 +197,7 @@
                      <td width="140" height="40" cellpadding="0" valign="middle"
                        align="right" class="h40 white small-text" style="margin: 1em 0;">
                        <a href="//www.unstuck.com" target ="_blank" title="Styling Links"
-                         style="color: orange; text-decoration: none;">UNSTUCK</a>
+                         style="color: orange; text-decoration: none;"><span class="white-text f1_875" style="font-size: 1.875em;">UNSTUCK</span></a>
                      </td>
                    </tr>
                  </table>
@@ -194,11 +209,11 @@
       
                 <!--HEADLINE--><!--{{{-->
                 <table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
-                  <tr><td width="640" valign="middle" align="left"><date>DATE HERE</date></td></tr>
+                  <tr><td width="640" valign="middle" align="left"><date style="font-size: 1.188em;" class="f_188">DATE HERE</date></td></tr>
                   <tr>
                     <td width="480" cellpadding="0" valign="middle" align="left"
                       style="margin: 1em 0;">
-                      <h1 style="big"> CHEAT SHEET FOR DEALING WITH CHANGE </h1>
+                      <h1 class="headline" style="font-size: 4.5em; letter-spacing: -5px; word-spacing:-1px; line-height: 1; margin: 0;"> CHEAT SHEET FOR DEALING WITH CHANGE </h1>
                     </td>
       
                     <td width="160" cellpadding="0" valign="middle" align="right"
@@ -209,20 +224,19 @@
                   
                    <table style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
                      <tr> 
-                       <td width="125" cellpadding="0" valign="top" align="left"
+                       <td width="100" cellpadding="0" valign="top" align="left"
                          style="margin: 1em 0;">
-                         <span>{Get Unstuck On.}</span></td>
+                         <span class="blue-text">{Get daily tips:</span></td>
                          <td>
                           <a href="//www.unstuck.com" target ="_blank"
-                            style="text-decoration: none;"><img style="outline:
+                            style="text-decoration: none;"> <span class="blue-text">Like us on</span><img style="outline:
                             none;" class="image_fix" src="img/social.gif"
                             alt="facebook" title="Check out Unstuck on Facebook" border="0" width="40" height="40" /></a>
                          </td>
                          
-                         <td width="3"></td>
-                         
+                                                 
                          <td>
-                          <a href="//www.unstuck.com" target ="_blank" style="text-decoration: none;"><img style="outline: none;" class="image_fix" src="img/social.gif" alt="twitter" title="Check out Unstuck on Twitter" border="0" width="40" height="40" /></a>
+                           <a href="//www.unstuck.com" target ="_blank" style="text-decoration: none;"><span class="blue-text">and follow us on</span><img style="outline: none;" class="image_fix" src="img/social.gif" alt="twitter" title="Check out Unstuck on Twitter" border="0" width="40" height="40" /> <span class="blue-text">}</span></a>
                          </td>
                        </td>
                      </tr>
@@ -239,26 +253,35 @@
                     <tr>
                       <td width="420" cellpadding="0" valign="middle" align="left"
                         style="margin: 1em 0;">
-                        <h2 style="border: 1px solid black"> DYNAMIC CONTENT </h2>
+                        <h2 style="border: 1px solid black"> <span style="font-size: .75em; letter-spacing: -1px;">UNSTUCK IS ABOUT EMBRACING CHANGE</span> </h2>
                       </td>
                       
                       <td width="20"></td>
         
                       <td width="180" cellpadding="0" valign="middle" align="left"
                         style="margin: 1em 0;">
-                        <h2 style="border: 1px solid black"> STATIC  </h2>
+                        <h2 style="font-size: .75em; letter-spacing: -1px; border: 1px solid black"> UNSTUCK IS ABOUT IMPROVEMENTS  </h2>
                       </td>
                     </tr> 
                   </table>
       
                   <table>
-                    <tr>
+                    <tr >
                       <td width="420" cellpadding="0" valign="middle" align="left"
                         style="margin: 1em 0;">
-                        <h2 style="border: 1px solid black"> DYNAMIC CONTENT </h2>
+                        <div style="padding-bottom: 10px;">
+                          <span class="title">
+                            Tip #1: <br />
+                            How we get stuck as reluctant adapter
+                          </span>
+                          <span style="font-family: Helvetica;"> 
+                            Human nature has trouble with change. It brings more questions than answers, pushing us out of our comfort zone. And sometimes, it stops us in our tracks, making us act like a Reluctant Adapter. 
+                          </span>
+                          <td style="position: relative;" width="420" cellpadding="0" valign="middle" align="left" style="margin: 1em 0;">
+                            <span style="position: absolute; top: 0; right: -100;" class="circles yellow text"> Tap or click to <span style="line-height: 100%; font-weight: bold;" class="action">LEARN MORE</span></span>
+                          </td>
+                        </div>
                       </td>
-                      
-                      <td width="20"></td>
         
                       <td width="180" cellpadding="0" valign="middle" align="left"
                         style="margin: 1em 0;">
@@ -281,18 +304,19 @@
                        align="center" style="margin: 1em 0;">
                        <a href="//www.unstuck.com" target ="_blank" title="Styling
                          Links" style="color: blue; text-decoration:
-                         none;"><span>LINK HERE</span></a> <span style="color: white;">|</span>
+                         none;"><span style="font-size: .75em;" class="f_75 yellow-text color: rgba(224, 224, 53, 1)">unsubscribe</span></a> <span style="color: white;">|</span>
                        <a href="//www.unstuck.com" target ="_blank" title="Styling
                          Links" style="color: blue; text-decoration:
-                         none;"><span>LINK HERE</span></a> <span style="color: white;">|</span>
+                         none;"><span style="font-size: .75em;" class="f_75 yellow-text color: rgba(224, 224, 53, 1)">www.unstuck.com</span></a> <span style="color: white;">|</span>
                        <a href="//www.unstuck.com" target ="_blank" title="Styling
                          Links" style="color: blue; text-decoration:
-                         none;"><span>LINK HERE</span></a> 
+                         none;"><span style="font-size: .75em;" class="f_75 yellow-text color: rgba(224, 224, 53, 1)">contact us</span></a> 
                      </td>
                      <td width="80"></td>
                    </tr>
                 </table>
                 <!--END FOOTER--><!--}}}-->
+
                 <!--SPACER--><!--{{{-->
                 <table class="w340;" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" width="340" cellpadding="0" cellspacing="0" border="0" border="0">
                   <tbody ><tr><td width="340" cellpadding="0" cellspacing="0" border="0" height="8"></td></tr></tbody>
